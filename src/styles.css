@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightgreen;
+  overflow: hidden;
+}
+
+header {
+  background-color: #63cef1;
+  padding: 2rem;
+  position: relative;
+}
+header .menu-icon {
+  font-size: 30px;
+  position: absolute;
+  right: 18px;
+  z-index: 1;
+  top: 10px;
+  cursor: pointer;
+  display: none;
+}/*# sourceMappingURL=styles.css.map */

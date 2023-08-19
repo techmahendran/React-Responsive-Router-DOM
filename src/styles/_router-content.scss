@@ -1,0 +1,26 @@
+.route-content {
+  padding: 1rem;
+  transition: all 0.3s;
+  min-height: 83.7vh;
+  background-color: #8a89e9;
+  h1 {
+    color: #61dbfb;
+    text-align: center;
+    position: relative;
+    &::after {
+      content: "";
+      height: 3px;
+      background-color: #9ee5f7;
+      display: block;
+      width: 50px;
+      position: absolute;
+      top: 45px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  p {
+    text-align: center;
+    color: #fff;
+  }
+}
